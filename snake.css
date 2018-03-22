@@ -15,11 +15,17 @@
     display:inline-block;
     width:580px;
 }
+#left-head img{
+    width:400px;
+    margin-right:90px;
+}
 #right-head{
-    background-color:yellow;
+    color:blue;
+    background-color:green;
     height:100px;
     display:inline-block;
     width:580px;
+    vertical-align: top;
 }
 #main{
     background-color:gold;
@@ -31,8 +37,10 @@
     display:inline-block;
     width:600px;
     padding:10px;
+    border-radius:10px;
 }
 #subhead ul li{
+    background-color:blue;
     padding:10px;
     display:inline-block;
 }

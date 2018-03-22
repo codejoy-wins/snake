@@ -91,6 +91,7 @@ COLOR-CODE
     height: 230px;
     width:580px;
     display: inline-block;
+    vertical-align: top;
 }
 
 .blue-bar{
@@ -101,13 +102,30 @@ COLOR-CODE
     margin-top:10px;
     margin-bottom:3px;
 }
+#GS h1{
+    font-size:200%;
+}
+#Apps h1{
+    font-size:200%;
+}
 
-
+#links ul li{
+    list-style-type:disc; /* Not Working */
+    padding:10px;
+}
+#links ul li a{
+    color:white;
+    /* text-decoration:underline; */
+}
 #footer{
     background-color:#2b6190;
     height:100px;
     vertical-align: bottom;
     margin: 0 auto;
+}
+.gold{
+    color:#9ec3e2;
+    padding:10px;
 }
 #footer ul li{
     display:inline-block;

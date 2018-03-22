@@ -2,10 +2,12 @@
     width:1170px;
     height: 900px;
     background-color: rgb(72, 15, 126);
+    text-align: center;
 }
 #header{
     background-color:red;
     height:100px;
+    text-align:center;
 }
 #left-head{
     background-color:pink;
@@ -28,10 +30,43 @@
     background-color:orange;
     display:inline-block;
     width:600px;
-}
-#subhead h1{
     padding:10px;
 }
+#subhead ul li{
+    padding:10px;
+    display:inline-block;
+}
+
+#links{
+    background-color:aquamarine;
+    color:blue;
+    height: 400px;
+    width:580px;
+    display: inline-block;
+}
+#text{
+    background-color:rgb(173, 13, 13);
+    color:rgb(0, 255, 157);
+    height: 400px;
+    width:580px;
+    display: inline-block;
+}
+#GS{
+    background-color:white;
+    color:blue;
+    height: 230px;
+    width:580px;
+    display: inline-block;
+}
+#Apps{
+    background-color:white;
+    color:blue;
+    height: 230px;
+    width:580px;
+    display: inline-block;
+}
+
+
 
 
 #footer{

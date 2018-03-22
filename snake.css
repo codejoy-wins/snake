@@ -29,8 +29,8 @@ COLOR-CODE
     margin-right:90px;
 }
 #right-head{
-    color:blue;
-    background-color:green;
+    color:white;
+    background-color:#245076;
     height:100px;
     display:inline-block;
     width:580px;
@@ -44,9 +44,10 @@ COLOR-CODE
 #subhead{
     background-color:#467ead;
     display:inline-block;
-    width:600px;
-    padding:10px;
+    width:700px;
+    padding:5px;
     border-radius:10px;
+    margin-bottom:10px;
 }
 #subhead ul li{
     /* background-color:blue; */
@@ -70,26 +71,36 @@ COLOR-CODE
     width:580px;
     display: inline-block;
     vertical-align: top;
+    line-height: 125%;
 }
 #text ul li{
+    padding:10px;
     color:#e9c839;
+    font-size:117%;
 }
 #GS{
     background-color:white;
-    color:blue;
+    color:black;
     height: 230px;
     width:580px;
     display: inline-block;
 }
 #Apps{
     background-color:white;
-    color:blue;
+    color:black;
     height: 230px;
     width:580px;
     display: inline-block;
 }
 
-
+.blue-bar{
+    background-color:#9ec3e2;
+    width:400px;
+    height:5px;
+    margin-left:100px;
+    margin-top:10px;
+    margin-bottom:3px;
+}
 
 
 #footer{

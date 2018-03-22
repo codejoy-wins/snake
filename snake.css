@@ -1,16 +1,25 @@
+/*
+COLOR-CODE
+#9ec3e2 light blue
+#e9c839 gold
+#245076 main blue
+#467ead heading blue
+*/
+
+
 #rapper{
     width:1170px;
     height: 900px;
-    background-color: rgb(72, 15, 126);
+    background-color:#245076;
     text-align: center;
 }
 #header{
-    background-color:red;
+    background-color:#245076;
     height:100px;
     text-align:center;
 }
 #left-head{
-    background-color:pink;
+    background-color:#245076;
     height:100px;
     display:inline-block;
     width:580px;
@@ -28,36 +37,42 @@
     vertical-align: top;
 }
 #main{
-    background-color:gold;
+    background-color:#245076;
     height:700px;
     text-align: center;
 }
 #subhead{
-    background-color:orange;
+    background-color:#467ead;
     display:inline-block;
     width:600px;
     padding:10px;
     border-radius:10px;
 }
 #subhead ul li{
-    background-color:blue;
+    /* background-color:blue; */
     padding:10px;
     display:inline-block;
+    font-size:117%;
+    color:white;
 }
 
 #links{
-    background-color:aquamarine;
-    color:blue;
+    background-color:#245076;
+    color:white;
     height: 400px;
     width:580px;
     display: inline-block;
 }
 #text{
-    background-color:rgb(173, 13, 13);
-    color:rgb(0, 255, 157);
+    background-color:#245076;
+    color:rgb(255,255,255);
     height: 400px;
     width:580px;
     display: inline-block;
+    vertical-align: top;
+}
+#text ul li{
+    color:#e9c839;
 }
 #GS{
     background-color:white;
@@ -78,8 +93,12 @@
 
 
 #footer{
-    background-color:blue;
+    background-color:#2b6190;
     height:100px;
     vertical-align: bottom;
     margin: 0 auto;
+}
+#footer ul li{
+    display:inline-block;
+    padding:10px;
 }

@@ -1,0 +1,42 @@
+#rapper{
+    width:1170px;
+    height: 900px;
+    background-color: rgb(72, 15, 126);
+}
+#header{
+    background-color:red;
+    height:100px;
+}
+#left-head{
+    background-color:pink;
+    height:100px;
+    display:inline-block;
+    width:580px;
+}
+#right-head{
+    background-color:yellow;
+    height:100px;
+    display:inline-block;
+    width:580px;
+}
+#main{
+    background-color:gold;
+    height:700px;
+    text-align: center;
+}
+#subhead{
+    background-color:orange;
+    display:inline-block;
+    width:600px;
+}
+#subhead h1{
+    padding:10px;
+}
+
+
+#footer{
+    background-color:blue;
+    height:100px;
+    vertical-align: bottom;
+    margin: 0 auto;
+}
